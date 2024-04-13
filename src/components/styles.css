@@ -1,0 +1,39 @@
+/* .splash-effect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, transparent 10%, #fbbf24 30%, transparent 10%);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .group:hover .splash-effect {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.5);
+  } */
+
+  .food-container:hover .food-name {
+    color: #fbbf24; /* Change color to yellow on hover */
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide {
+    animation: slide 2s forwards;
+  }
+
+  .banner-img {
+    max-width: 150%;
+  }
