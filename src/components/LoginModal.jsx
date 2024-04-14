@@ -17,7 +17,7 @@ const LoginModal = () => {
       <div className="flex text-md text-gray-400 mt-2">
         Sign in below or
         <span className="text-yellow-400 mx-2">
-          <Link to="/signup">Create an account</Link>
+          <Link to="/">Create an account</Link>
         </span>
       </div>
       <form onSubmit={handleSubmit} className="mt-4 mx-2">
@@ -63,7 +63,7 @@ const LoginModal = () => {
         </button>
       </form>
       <div className="mt-8 mx-3 text-yellow-400 cursor-pointer">
-        <Link to='/forgot-password'>
+        <Link to='/'>
         Lost your password?
         </Link></div>
     </div>
