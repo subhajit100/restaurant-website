@@ -1,40 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { FaRegStar, FaStar } from "react-icons/fa";
-
-const dishesData = [
-  {
-    imgUrl: "images/popular_dish_1.png",
-    rating: 3,
-    name: "Water Bottle",
-    description:
-      "Investing in a reusable water bottle that you can refill throughout the...",
-    price: 10.18,
-  },
-  {
-    imgUrl: "images/popular_dish_2.png",
-    rating: 4,
-    name: "Vegge Lover",
-    description:
-      "Extra-virgin olive oil, garlic, mozzarella cheese, onions,...",
-    price: 14.9,
-  },
-  {
-    imgUrl: "images/popular_dish_3.png",
-    rating: 5,
-    name: "Tropicana Juice",
-    description:
-      "View great tasting Tropicana Orange Juice and Juice Drink Products....",
-    price: 11.11,
-  },
-  {
-    imgUrl: "images/popular_dish_4.png",
-    rating: 4,
-    name: "Trio Cheese",
-    description: "Mouth watering pepperoni, cabanossi, mushroom, capsicum...",
-    price: 16.93,
-  },
-];
+import { dishesData } from "../constants";
 
 const PopularDishes = () => {
   return (

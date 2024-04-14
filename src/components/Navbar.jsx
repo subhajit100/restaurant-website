@@ -14,7 +14,6 @@ const Navbar = () => {
   useEffect(() => {
     // this is the way to check if we have clicked outside of the loginmodal form and then close it
     const handleOutsideClick = (event) => {
-      console.log("event", event.target);
       if (
         loginModalRef.current &&
         !loginModalRef.current.contains(event.target)
@@ -34,7 +33,14 @@ const Navbar = () => {
     <div className="flex bg-gray-900 justify-between items-center h-28 fixed z-40 w-full top-0 left-0">
       <div className="p-2 m-2 flex">
         <div className="mx-4 flex justify-center items-center">
-          <img src="/images/logo.svg" alt="Logo" width="100vw" height="100vh" />
+          <Link to="/">
+            <img
+              src="/images/logo.svg"
+              alt="Logo"
+              width="100vw"
+              height="100vh"
+            />
+          </Link>
         </div>
         <div className="flex justify-center items-center m-2">
           {navLinks.map((link) => (

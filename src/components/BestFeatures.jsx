@@ -1,25 +1,5 @@
 import React from "react";
-import { GiScooter } from "react-icons/gi";
-import { RiTimerFlashLine } from "react-icons/ri";
-import { CiPizza } from "react-icons/ci";
-
-const featureContents = [
-  {
-    heading: "Free shipping",
-    content: "Sign up for updates and get free shipping",
-    logo: <GiScooter color="#ffc222" size={75} />,
-  },
-  {
-    heading: "30 Minutes Delivery",
-    content: "Everything you order will be quickly delivered to your door.",
-    logo: <RiTimerFlashLine color="#ffc222" size={75} />,
-  },
-  {
-    heading: "Best Quality Guarantee",
-    content: "Poco is an international chain of family restaurants.",
-    logo: <CiPizza color="#ffc222" size={75} />,
-  },
-];
+import { featureContents } from "../constants";
 
 const BestFeatures = () => {
   return (
