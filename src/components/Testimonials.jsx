@@ -68,10 +68,10 @@ const Testimonials = () => {
 
   return (
     <div className="bg-[#f7f2e2] min-h-96">
-      <div className="flex justify-center items-center text-5xl font-bold p-8">
+      <div className="flex justify-center items-center lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold p-8">
         What our customer says
       </div>
-      <div className="w-11/12 ml-10">
+      <div className="w-11/12 md:ml-10 md:pl-0 pl-10">
         <Slider {...settings}>
           {testimonials.map((testimonial) => (
             <TestimonialCard key={testimonial.name} testimonial={testimonial} />

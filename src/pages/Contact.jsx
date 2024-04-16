@@ -12,7 +12,7 @@ const Contact = () => {
       <Navbar />
       <ContactHead />
       <ContactOptions />
-      <div className="flex justify-between items-start">
+      <div className="flex lg:flex-row flex-col justify-between lg:items-start items-center">
             <MapSection />
             <SendMessage />
       </div>

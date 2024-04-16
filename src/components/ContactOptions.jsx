@@ -3,9 +3,9 @@ import { contactOptions } from "../constants";
 
 const ContactOptions = () => {
   return (
-    <div className="flex justify-evenly items-center mt-4 mb-8">
+    <div className="md:flex md:flex-row flex-col justify-evenly items-center mt-4 mb-8">
       {/* each card item for contact */}
-      {contactOptions.map(contact => <div className="flex flex-col items-start justify-center">
+      {contactOptions.map(contact => <div className="flex flex-col lg:items-start items-center justify-center my-3 md:my-1">
         <div className="my-3">
           {contact.logo}
         </div>

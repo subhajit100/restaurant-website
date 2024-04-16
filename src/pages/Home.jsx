@@ -17,7 +17,7 @@ const Home = () => {
       <FeaturedSection />
       <FamousFoods />
       {/* The below is done as above famousfood component is absolute, so to cover the space, we need to have spacing from top */}
-      <div className="relative top-[420px]">
+      <div className="relative">
         <BestFeatures />
         <PopularDishes />
         <Testimonials />

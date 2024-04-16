@@ -8,7 +8,7 @@ const MenuOptions = ({ selectedMenuCategory }) => {
     <div className="mt-8">
       <div className="container mx-auto px-4 py-8">
         {/* <CardGrid cards={cards} /> */}
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
           {menuOptions[selectedMenuCategory].map((food) => (
             <div key={food.name} className="border-gray-200 border rounded-xl">
               <div className="flex justify-center items-center bg-[#faf6e8] m-3 p-4 rounded-xl">

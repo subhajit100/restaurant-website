@@ -33,9 +33,9 @@
   }
   
   .animate-slide {
-    animation: slide 2s forwards;
+    animation: slide 1.5s forwards;
   }
 
   .banner-img {
-    max-width: 150%;
+    max-width: 400%;
   }

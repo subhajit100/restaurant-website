@@ -25,8 +25,8 @@ const SendMessage = () => {
     setFormData(initialFormData);
   };
   return (
-    <div className="w-[48%]  border-gray-300 border rounded-lg p-2 mr-6 ml-1 mb-16">
-      <div className="text-4xl font-bold mt-6 mb-8 text-center">
+    <div className="lg:w-[48%] sm:w-[70%] w-[90%] mt-3  border-gray-300 border rounded-lg p-2 lg:mr-6 lg:ml-1 mb-16">
+      <div className="lg:text-4xl md:text-3xl text-2xl font-bold mt-6 mb-8 text-center">
         Send us a message
       </div>
       <form onSubmit={handleSubmit} className="space-y-6 w-[80%] mx-auto">

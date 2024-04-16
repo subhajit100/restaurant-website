@@ -9,7 +9,7 @@ const MapSection = () => {
   const zoom = 13;
 
   return (
-    <div className="w-[48%] ml-4 z-10">
+    <div className="lg:w-[48%] w-[80%] ml-4 z-10">
       <MapWithMarker position={position} zoom={zoom} />
     </div>
   );

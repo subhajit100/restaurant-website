@@ -11,6 +11,17 @@ export const navLinks = [
   { href: "/contact", urlName: "Contact" },
 ];
 
+export const productCategoryData = [
+  { imageSrc: "/images/bread.png", name: "BREAD" },
+  { imageSrc: "/images/burger.png", name: "BURGER" },
+  { imageSrc: "/images/chicken.png", name: "CHICKEN" },
+  { imageSrc: "/images/fries.png", name: "FRIES" },
+  { imageSrc: "/images/hot_drinks.png", name: "HOT DRINKS" },
+  { imageSrc: "/images/hamburger.png", name: "HAMBURGER" },
+  { imageSrc: "/images/pizza.png", name: "PIZZA" },
+  { imageSrc: "/images/rolls.png", name: "ROLLS" },
+];
+
 export const menuCategories = ["PIZZA", "SUSHI", "SALADS", "BURGER", "DESERT"];
 
 export const dishesData = [
@@ -159,40 +170,40 @@ export const menuOptions = {
 };
 
 export const contactOptions = [
-    {
-      logo: <MdPhoneIphone size={55} color="#ffc222" />,
-      title: "Phone",
-      content: ["+ 44 123 456 78 90", "+ 844 123 444 77 88"],
-    },
-    {
-      logo: <GrLocation size={55} color="#ffc222" />,
-      title: "Address",
-      content: [
-        "Box 565, Pinney's Beach, Charlestown,",
-        "Nevis, West Indies, Caribbean",
-      ],
-    },
-    {
-      logo: <MdOutlineMailOutline size={55} color="#ffc222" />,
-      title: "Email",
-      content: ["contact@example.com", "info@example.com"],
-    },
-  ];
+  {
+    logo: <MdPhoneIphone size={55} color="#ffc222" />,
+    title: "Phone",
+    content: ["+ 44 123 456 78 90", "+ 844 123 444 77 88"],
+  },
+  {
+    logo: <GrLocation size={55} color="#ffc222" />,
+    title: "Address",
+    content: [
+      "Box 565, Pinney's Beach, Charlestown,",
+      "Nevis, West Indies, Caribbean",
+    ],
+  },
+  {
+    logo: <MdOutlineMailOutline size={55} color="#ffc222" />,
+    title: "Email",
+    content: ["contact@example.com", "info@example.com"],
+  },
+];
 
 export const featureContents = [
-    {
-      heading: "Free shipping",
-      content: "Sign up for updates and get free shipping",
-      logo: <GiScooter color="#ffc222" size={75} />,
-    },
-    {
-      heading: "30 Minutes Delivery",
-      content: "Everything you order will be quickly delivered to your door.",
-      logo: <RiTimerFlashLine color="#ffc222" size={75} />,
-    },
-    {
-      heading: "Best Quality Guarantee",
-      content: "Poco is an international chain of family restaurants.",
-      logo: <CiPizza color="#ffc222" size={75} />,
-    },
-  ];
+  {
+    heading: "Free shipping",
+    content: "Sign up for updates and get free shipping",
+    logo: <GiScooter color="#ffc222" size={75} />,
+  },
+  {
+    heading: "30 Minutes Delivery",
+    content: "Everything you order will be quickly delivered to your door.",
+    logo: <RiTimerFlashLine color="#ffc222" size={75} />,
+  },
+  {
+    heading: "Best Quality Guarantee",
+    content: "Poco is an international chain of family restaurants.",
+    logo: <CiPizza color="#ffc222" size={75} />,
+  },
+];

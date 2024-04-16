@@ -8,10 +8,10 @@ const TestimonialCard = ({ testimonial }) => {
       <div className="flex justify-between items-center">
         {/* personal info part */}
         <div className="flex justify-center items-center">
-          <img src={logo} alt={name} className="rounded-full w-16 h-16" />
+          <img src={logo} alt={name} className="rounded-full md:w-16 md:h-16 w-10 h-10" />
           <div className="flex flex-col justify-center ml-2">
-            <div className="text-xl font-bold">{name}</div>
-            <div className="text-md">{profession}</div>
+            <div className="md:text-xl sm:text-md font-bold">{name}</div>
+            <div className="md:text-md text-sm font-bold md:font-semibold">{profession}</div>
           </div>
         </div>
         {/* rating part */}
@@ -26,7 +26,7 @@ const TestimonialCard = ({ testimonial }) => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center">{feedback}</div>
+      <div className="flex items-center justify-center text-sm md:text-md">{feedback}</div>
     </div>
   );
 };
